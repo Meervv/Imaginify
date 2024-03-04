@@ -21,6 +21,16 @@ eval("\nvar GetIntrinsic = __webpack_require__(/*! get-intrinsic */ \"(ssr)/./no
 
 /***/ }),
 
+/***/ "(action-browser)/./node_modules/es-define-property/index.js":
+/*!**************************************************!*\
+  !*** ./node_modules/es-define-property/index.js ***!
+  \**************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("\nvar GetIntrinsic = __webpack_require__(/*! get-intrinsic */ \"(action-browser)/./node_modules/get-intrinsic/index.js\");\n/** @type {import('.')} */ var $defineProperty = GetIntrinsic(\"%Object.defineProperty%\", true) || false;\nif ($defineProperty) {\n    try {\n        $defineProperty({}, \"a\", {\n            value: 1\n        });\n    } catch (e) {\n        // IE 8 has a broken defineProperty\n        $defineProperty = false;\n    }\n}\nmodule.exports = $defineProperty;\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKGFjdGlvbi1icm93c2VyKS8uL25vZGVfbW9kdWxlcy9lcy1kZWZpbmUtcHJvcGVydHkvaW5kZXguanMiLCJtYXBwaW5ncyI6IkFBQUE7QUFFQSxJQUFJQSxlQUFlQyxtQkFBT0EsQ0FBQztBQUUzQix3QkFBd0IsR0FDeEIsSUFBSUMsa0JBQWtCRixhQUFhLDJCQUEyQixTQUFTO0FBQ3ZFLElBQUlFLGlCQUFpQjtJQUNwQixJQUFJO1FBQ0hBLGdCQUFnQixDQUFDLEdBQUcsS0FBSztZQUFFQyxPQUFPO1FBQUU7SUFDckMsRUFBRSxPQUFPQyxHQUFHO1FBQ1gsbUNBQW1DO1FBQ25DRixrQkFBa0I7SUFDbkI7QUFDRDtBQUVBRyxPQUFPQyxPQUFPLEdBQUdKIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vaW1hZ2luaWZ5Ly4vbm9kZV9tb2R1bGVzL2VzLWRlZmluZS1wcm9wZXJ0eS9pbmRleC5qcz9iMGIzIl0sInNvdXJjZXNDb250ZW50IjpbIid1c2Ugc3RyaWN0JztcblxudmFyIEdldEludHJpbnNpYyA9IHJlcXVpcmUoJ2dldC1pbnRyaW5zaWMnKTtcblxuLyoqIEB0eXBlIHtpbXBvcnQoJy4nKX0gKi9cbnZhciAkZGVmaW5lUHJvcGVydHkgPSBHZXRJbnRyaW5zaWMoJyVPYmplY3QuZGVmaW5lUHJvcGVydHklJywgdHJ1ZSkgfHwgZmFsc2U7XG5pZiAoJGRlZmluZVByb3BlcnR5KSB7XG5cdHRyeSB7XG5cdFx0JGRlZmluZVByb3BlcnR5KHt9LCAnYScsIHsgdmFsdWU6IDEgfSk7XG5cdH0gY2F0Y2ggKGUpIHtcblx0XHQvLyBJRSA4IGhhcyBhIGJyb2tlbiBkZWZpbmVQcm9wZXJ0eVxuXHRcdCRkZWZpbmVQcm9wZXJ0eSA9IGZhbHNlO1xuXHR9XG59XG5cbm1vZHVsZS5leHBvcnRzID0gJGRlZmluZVByb3BlcnR5O1xuIl0sIm5hbWVzIjpbIkdldEludHJpbnNpYyIsInJlcXVpcmUiLCIkZGVmaW5lUHJvcGVydHkiLCJ2YWx1ZSIsImUiLCJtb2R1bGUiLCJleHBvcnRzIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///(action-browser)/./node_modules/es-define-property/index.js\n");
+
+/***/ }),
+
 /***/ "(rsc)/./node_modules/es-define-property/index.js":
 /*!**************************************************!*\
   !*** ./node_modules/es-define-property/index.js ***!

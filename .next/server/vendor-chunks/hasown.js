@@ -21,6 +21,16 @@ eval("\nvar call = Function.prototype.call;\nvar $hasOwn = Object.prototype.hasO
 
 /***/ }),
 
+/***/ "(action-browser)/./node_modules/hasown/index.js":
+/*!**************************************!*\
+  !*** ./node_modules/hasown/index.js ***!
+  \**************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("\nvar call = Function.prototype.call;\nvar $hasOwn = Object.prototype.hasOwnProperty;\nvar bind = __webpack_require__(/*! function-bind */ \"(action-browser)/./node_modules/function-bind/index.js\");\n/** @type {import('.')} */ module.exports = bind.call(call, $hasOwn);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKGFjdGlvbi1icm93c2VyKS8uL25vZGVfbW9kdWxlcy9oYXNvd24vaW5kZXguanMiLCJtYXBwaW5ncyI6IkFBQUE7QUFFQSxJQUFJQSxPQUFPQyxTQUFTQyxTQUFTLENBQUNGLElBQUk7QUFDbEMsSUFBSUcsVUFBVUMsT0FBT0YsU0FBUyxDQUFDRyxjQUFjO0FBQzdDLElBQUlDLE9BQU9DLG1CQUFPQSxDQUFDO0FBRW5CLHdCQUF3QixHQUN4QkMsT0FBT0MsT0FBTyxHQUFHSCxLQUFLTixJQUFJLENBQUNBLE1BQU1HIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vaW1hZ2luaWZ5Ly4vbm9kZV9tb2R1bGVzL2hhc293bi9pbmRleC5qcz9jNjQ5Il0sInNvdXJjZXNDb250ZW50IjpbIid1c2Ugc3RyaWN0JztcblxudmFyIGNhbGwgPSBGdW5jdGlvbi5wcm90b3R5cGUuY2FsbDtcbnZhciAkaGFzT3duID0gT2JqZWN0LnByb3RvdHlwZS5oYXNPd25Qcm9wZXJ0eTtcbnZhciBiaW5kID0gcmVxdWlyZSgnZnVuY3Rpb24tYmluZCcpO1xuXG4vKiogQHR5cGUge2ltcG9ydCgnLicpfSAqL1xubW9kdWxlLmV4cG9ydHMgPSBiaW5kLmNhbGwoY2FsbCwgJGhhc093bik7XG4iXSwibmFtZXMiOlsiY2FsbCIsIkZ1bmN0aW9uIiwicHJvdG90eXBlIiwiJGhhc093biIsIk9iamVjdCIsImhhc093blByb3BlcnR5IiwiYmluZCIsInJlcXVpcmUiLCJtb2R1bGUiLCJleHBvcnRzIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///(action-browser)/./node_modules/hasown/index.js\n");
+
+/***/ }),
+
 /***/ "(rsc)/./node_modules/hasown/index.js":
 /*!**************************************!*\
   !*** ./node_modules/hasown/index.js ***!

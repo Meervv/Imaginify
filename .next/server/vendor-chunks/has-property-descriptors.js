@@ -21,6 +21,16 @@ eval("\nvar $defineProperty = __webpack_require__(/*! es-define-property */ \"(s
 
 /***/ }),
 
+/***/ "(action-browser)/./node_modules/has-property-descriptors/index.js":
+/*!********************************************************!*\
+  !*** ./node_modules/has-property-descriptors/index.js ***!
+  \********************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("\nvar $defineProperty = __webpack_require__(/*! es-define-property */ \"(action-browser)/./node_modules/es-define-property/index.js\");\nvar hasPropertyDescriptors = function hasPropertyDescriptors() {\n    return !!$defineProperty;\n};\nhasPropertyDescriptors.hasArrayLengthDefineBug = function hasArrayLengthDefineBug() {\n    // node v0.6 has a bug where array lengths can be Set but not Defined\n    if (!$defineProperty) {\n        return null;\n    }\n    try {\n        return $defineProperty([], \"length\", {\n            value: 1\n        }).length !== 1;\n    } catch (e) {\n        // In Firefox 4-22, defining length on an array throws an exception.\n        return true;\n    }\n};\nmodule.exports = hasPropertyDescriptors;\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKGFjdGlvbi1icm93c2VyKS8uL25vZGVfbW9kdWxlcy9oYXMtcHJvcGVydHktZGVzY3JpcHRvcnMvaW5kZXguanMiLCJtYXBwaW5ncyI6IkFBQUE7QUFFQSxJQUFJQSxrQkFBa0JDLG1CQUFPQSxDQUFDO0FBRTlCLElBQUlDLHlCQUF5QixTQUFTQTtJQUNyQyxPQUFPLENBQUMsQ0FBQ0Y7QUFDVjtBQUVBRSx1QkFBdUJDLHVCQUF1QixHQUFHLFNBQVNBO0lBQ3pELHFFQUFxRTtJQUNyRSxJQUFJLENBQUNILGlCQUFpQjtRQUNyQixPQUFPO0lBQ1I7SUFDQSxJQUFJO1FBQ0gsT0FBT0EsZ0JBQWdCLEVBQUUsRUFBRSxVQUFVO1lBQUVJLE9BQU87UUFBRSxHQUFHQyxNQUFNLEtBQUs7SUFDL0QsRUFBRSxPQUFPQyxHQUFHO1FBQ1gsb0VBQW9FO1FBQ3BFLE9BQU87SUFDUjtBQUNEO0FBRUFDLE9BQU9DLE9BQU8sR0FBR04iLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9pbWFnaW5pZnkvLi9ub2RlX21vZHVsZXMvaGFzLXByb3BlcnR5LWRlc2NyaXB0b3JzL2luZGV4LmpzP2Q5N2YiXSwic291cmNlc0NvbnRlbnQiOlsiJ3VzZSBzdHJpY3QnO1xuXG52YXIgJGRlZmluZVByb3BlcnR5ID0gcmVxdWlyZSgnZXMtZGVmaW5lLXByb3BlcnR5Jyk7XG5cbnZhciBoYXNQcm9wZXJ0eURlc2NyaXB0b3JzID0gZnVuY3Rpb24gaGFzUHJvcGVydHlEZXNjcmlwdG9ycygpIHtcblx0cmV0dXJuICEhJGRlZmluZVByb3BlcnR5O1xufTtcblxuaGFzUHJvcGVydHlEZXNjcmlwdG9ycy5oYXNBcnJheUxlbmd0aERlZmluZUJ1ZyA9IGZ1bmN0aW9uIGhhc0FycmF5TGVuZ3RoRGVmaW5lQnVnKCkge1xuXHQvLyBub2RlIHYwLjYgaGFzIGEgYnVnIHdoZXJlIGFycmF5IGxlbmd0aHMgY2FuIGJlIFNldCBidXQgbm90IERlZmluZWRcblx0aWYgKCEkZGVmaW5lUHJvcGVydHkpIHtcblx0XHRyZXR1cm4gbnVsbDtcblx0fVxuXHR0cnkge1xuXHRcdHJldHVybiAkZGVmaW5lUHJvcGVydHkoW10sICdsZW5ndGgnLCB7IHZhbHVlOiAxIH0pLmxlbmd0aCAhPT0gMTtcblx0fSBjYXRjaCAoZSkge1xuXHRcdC8vIEluIEZpcmVmb3ggNC0yMiwgZGVmaW5pbmcgbGVuZ3RoIG9uIGFuIGFycmF5IHRocm93cyBhbiBleGNlcHRpb24uXG5cdFx0cmV0dXJuIHRydWU7XG5cdH1cbn07XG5cbm1vZHVsZS5leHBvcnRzID0gaGFzUHJvcGVydHlEZXNjcmlwdG9ycztcbiJdLCJuYW1lcyI6WyIkZGVmaW5lUHJvcGVydHkiLCJyZXF1aXJlIiwiaGFzUHJvcGVydHlEZXNjcmlwdG9ycyIsImhhc0FycmF5TGVuZ3RoRGVmaW5lQnVnIiwidmFsdWUiLCJsZW5ndGgiLCJlIiwibW9kdWxlIiwiZXhwb3J0cyJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///(action-browser)/./node_modules/has-property-descriptors/index.js\n");
+
+/***/ }),
+
 /***/ "(rsc)/./node_modules/has-property-descriptors/index.js":
 /*!********************************************************!*\
   !*** ./node_modules/has-property-descriptors/index.js ***!
